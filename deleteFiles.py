@@ -7,7 +7,6 @@ import os
 #Display the list of files to be deleted
 for filename in os.listdir():
     if filename.endswith('.py'): #.py extension can be changed to anything you want
-        os.unlink(filename)
         print('* ', filename)
         
 print()
