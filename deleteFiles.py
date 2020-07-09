@@ -1,4 +1,4 @@
-#!python#
+#!python
 #Display all the files in the current directory and delete it
 
 import os
